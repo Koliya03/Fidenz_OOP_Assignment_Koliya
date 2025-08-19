@@ -1,3 +1,5 @@
+package src.Models;
+
 public interface Shape {
     double areaWithoutBorder();
 

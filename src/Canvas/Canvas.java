@@ -1,4 +1,8 @@
+package src.Canvas;
+
 import java.util.*;
+
+import src.Models.Shape;
 
 public class Canvas {
     private List<Shape> shapes = new ArrayList<>();
@@ -31,5 +35,9 @@ public class Canvas {
             sum += element.borderArea();
         }
         return sum;
+    }
+
+    public void clear() {
+        shapes.clear(); // or shapes.clear() based on your field name
     }
 }

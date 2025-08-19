@@ -1,3 +1,5 @@
+package src.Models;
+
 public class Rectangle implements Shape {
     private final double width, height;
     private final double thickness;
