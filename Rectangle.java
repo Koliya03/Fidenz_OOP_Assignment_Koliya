@@ -6,7 +6,7 @@ public class Rectangle implements Shape {
         if (width <= 0 || height <= 0)
             throw new IllegalArgumentException("Width or height can only be an integer");
         if (thickness < 0)
-            throw new IllegalArgumentException("thickness >= 0");
+            throw new IllegalArgumentException("thickness can not be negative");
         this.width = width;
         this.height = height;
         this.thickness = thickness;
